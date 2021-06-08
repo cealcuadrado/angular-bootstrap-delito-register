@@ -1,0 +1,18 @@
+.delito-materia {
+  border: 1px dotted black;
+  border-radius: 5px;
+  display: grid;
+
+  @media screen and (max-width: 991px) {
+    grid-template-rows: 1;
+  }
+
+  @media screen and (min-width: 992px) {
+    grid-template-columns: 1fr 1fr 50px;
+  }
+
+  .box {
+    padding: 1rem;
+    border: 1px dotted black;
+  }
+}
